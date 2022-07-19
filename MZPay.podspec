@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.authors         = { 'MZ' => '1691665955@qq.com' }
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.source = { :git => "https://github.com/1691665955/MZPay.git", :tag => spec.version}
-  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 armv7s arm64' }
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 armv7s arm64' }
   spec.platform     = :ios, "9.0"
   spec.swift_version = '5.0'
   spec.source_files  = "MZPay/MZPay/*"
