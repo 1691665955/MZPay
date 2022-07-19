@@ -7,6 +7,7 @@
 
 import UIKit
 import CommonCrypto
+import WechatOpenSDK
 
 
 public enum MZPayFailureReason {

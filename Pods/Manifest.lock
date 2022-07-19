@@ -1,20 +1,20 @@
 PODS:
   - AlipaySDK-iOS (15.8.10)
-  - WechatOpenSDK (1.8.7.1)
+  - WechatOpenSDK-Swift (1.8.7.1)
 
 DEPENDENCIES:
   - AlipaySDK-iOS (~> 15.8.10)
-  - WechatOpenSDK (~> 1.8.7.1)
+  - WechatOpenSDK-Swift (~> 1.8.7.1)
 
 SPEC REPOS:
   trunk:
     - AlipaySDK-iOS
-    - WechatOpenSDK
+    - WechatOpenSDK-Swift
 
 SPEC CHECKSUMS:
   AlipaySDK-iOS: 9f81bf87e55750c3b3ac6c1a89c7cbf16ba06f5f
-  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
+  WechatOpenSDK-Swift: 18a8f7b12e745c30acc013f72a9f8a25aad6e216
 
-PODFILE CHECKSUM: 66196e7f0564ed1c1d132a3cea6b0b21209c9e58
+PODFILE CHECKSUM: 755afde78a7fcb417425210e8f77603c1e24f447
 
 COCOAPODS: 1.11.2

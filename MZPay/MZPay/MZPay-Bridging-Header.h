@@ -3,5 +3,4 @@
 //
 
 
-#import <WechatOpenSDK/WXApi.h>
 #import <AlipaySDK/AlipaySDK.h>

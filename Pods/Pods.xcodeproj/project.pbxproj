@@ -16,32 +16,32 @@
 			);
 			name = "AlipaySDK-iOS";
 		};
-		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
+		D738A182B8613254A2692EBEF9DC0188 /* WechatOpenSDK-Swift */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildConfigurationList = 17729407FAA44844C8BE15DA7DDFE146 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK-Swift" */;
 			buildPhases = (
 			);
 			dependencies = (
 			);
-			name = WechatOpenSDK;
+			name = "WechatOpenSDK-Swift";
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0FF3686F081C0C2F54145542523462F8 /* Pods-MZPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6555CDCFE89836A090173E54D81B5542 /* Pods-MZPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98681F4EA6B20C08DE8CF33E693CDF1D /* Pods-MZPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6708E377C942C1F9D4BF2DC888306C95 /* Pods-MZPay-dummy.m */; };
-		D217A3EFBA41B53F84C9EEA2ECA625BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		57A40FBE24C77D4165F4121B86D3DF9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B951CE8595A0DDA042326C84588530B1 /* Pods-MZPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6708E377C942C1F9D4BF2DC888306C95 /* Pods-MZPay-dummy.m */; };
+		CAE6D22F64314FF3A5B68D39D5F83275 /* Pods-MZPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6555CDCFE89836A090173E54D81B5542 /* Pods-MZPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3347B825EC56FB9E4A9D5DF297C5A67C /* PBXContainerItemProxy */ = {
+		1227209187EED4123DE0445A1478ABFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
-			remoteInfo = WechatOpenSDK;
+			remoteGlobalIDString = D738A182B8613254A2692EBEF9DC0188;
+			remoteInfo = "WechatOpenSDK-Swift";
 		};
-		B5AA9FD60A7F5F0426CD0FE1CCAC5570 /* PBXContainerItemProxy */ = {
+		90C7DECDE320C3838DA29DDD11487EDF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -52,67 +52,46 @@
 
 /* Begin PBXFileReference section */
 		101579A01DA6D2867409A79CFBB26543 /* Pods-MZPay-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZPay-resources.sh"; sourceTree = "<group>"; };
-		1E0E58C28B79139D7CB55D2E4D515038 /* WechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		1D48CA5F4A3C278AFDFFD7712DE24C9A /* WechatOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WechatOpenSDK.framework; path = Vendor/WechatOpenSDK.framework; sourceTree = "<group>"; };
 		230EF44C666D1E2A52B791EECBA17303 /* Pods-MZPay */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MZPay"; path = Pods_MZPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		439BC51372D263CC9F4FD6B9425107A5 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.7.1/WXApiObject.h; sourceTree = "<group>"; };
 		4735CE3D394CA60286B3E73543CAC704 /* Pods-MZPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZPay.debug.xcconfig"; sourceTree = "<group>"; };
 		5EBB2E5554DD5180F88D1EE554B6EA75 /* Pods-MZPay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZPay-Info.plist"; sourceTree = "<group>"; };
 		6555CDCFE89836A090173E54D81B5542 /* Pods-MZPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MZPay-umbrella.h"; sourceTree = "<group>"; };
 		6708E377C942C1F9D4BF2DC888306C95 /* Pods-MZPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MZPay-dummy.m"; sourceTree = "<group>"; };
-		67425B793420A140F2AC54FBC2F5D23C /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.7.1/WXApi.h; sourceTree = "<group>"; };
+		670CBE79EF711F1A7979C090CDC2064A /* WechatOpenSDK-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "WechatOpenSDK-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		71359E7F8BAA13ED83731BF605DFF0A8 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		76F05287894A267EE14DE6817FA8548F /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
-		794DD03F9391F7D79E599878A7A75F74 /* WechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
-		93DA5E5A191FA6A31403753D6AD6D542 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.7.1/libWeChatSDK.a; sourceTree = "<group>"; };
-		9BCCE7A311F85C8977229967B47026AF /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.7.1/WechatAuthSDK.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F10D18B681CAFF8036BC5B0505CD889 /* AlipaySDK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A41ACD62F61D8681F6106636DEE77B29 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		ACA2020068BB333E959DAFC67BC4F200 /* AlipaySDK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B19FB0141C9E8B9FDCF0F70140CB8865 /* Pods-MZPay-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MZPay-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B6BABDA408D8176CC1A46B5408989D66 /* AlipaySDK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		B5F47D0B5B62FC005C697029B5BB008A /* AlipaySDK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		D6B18E10DEB2B010C81D022548C76C89 /* Pods-MZPay-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZPay-acknowledgements.plist"; sourceTree = "<group>"; };
-		E1D5A9B9413C02EA9F5DCB53A5C13B5B /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		ED02BAB0EC0BB9D07D7D1B53138DCCC3 /* Pods-MZPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZPay.release.xcconfig"; sourceTree = "<group>"; };
+		F8A50A745041D738BF42529F96365480 /* WechatOpenSDK-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "WechatOpenSDK-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		FAAA30A623117FC11C5B5F3CCC20EAD9 /* Pods-MZPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MZPay.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A4218E1A07678B0C3C48CB9F5BB947F4 /* Frameworks */ = {
+		D0A3EA04EDC56853976EF1E0780F7A6D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D217A3EFBA41B53F84C9EEA2ECA625BE /* Foundation.framework in Frameworks */,
+				57A40FBE24C77D4165F4121B86D3DF9F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		031585440D19C24408251CCDBD89E8B8 /* Pods */ = {
+		22EC7F2F143D3888253529735EF7722F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0557B4D96C5422E89B692ACEE990113C /* AlipaySDK-iOS */,
-				9E7DB361D0C4069D7549E46CD56B4F4D /* WechatOpenSDK */,
+				ACA2020068BB333E959DAFC67BC4F200 /* AlipaySDK-iOS.debug.xcconfig */,
+				B5F47D0B5B62FC005C697029B5BB008A /* AlipaySDK-iOS.release.xcconfig */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		0557B4D96C5422E89B692ACEE990113C /* AlipaySDK-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3FA60FE65F3816CA44D72189CF1ED4F3 /* Frameworks */,
-				DEB4F4EC4DB72C8F198C9A4D0262E812 /* Resources */,
-				5B48ECBE877EC309263FB424747415AB /* Support Files */,
-			);
-			name = "AlipaySDK-iOS";
-			path = "AlipaySDK-iOS";
-			sourceTree = "<group>";
-		};
-		3FA60FE65F3816CA44D72189CF1ED4F3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				76F05287894A267EE14DE6817FA8548F /* AlipaySDK.framework */,
-			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/AlipaySDK-iOS";
 			sourceTree = "<group>";
 		};
 		48868DCA0ECC7D01DF6C29D4D872C9A2 /* Products */ = {
@@ -131,14 +110,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5B48ECBE877EC309263FB424747415AB /* Support Files */ = {
+		6571129F9F01F9372D98DDEF934E66DE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9F10D18B681CAFF8036BC5B0505CD889 /* AlipaySDK-iOS.debug.xcconfig */,
-				B6BABDA408D8176CC1A46B5408989D66 /* AlipaySDK-iOS.release.xcconfig */,
+				C03281E082142D1C7EF9323127DF24FB /* AlipaySDK-iOS */,
+				A6197949850F09E618A37B924B10C82F /* WechatOpenSDK-Swift */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/AlipaySDK-iOS";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		872176D418A9C179A25DB16DBA5AD499 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71359E7F8BAA13ED83731BF605DFF0A8 /* AlipaySDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8CBB176F72FEC79EE408727E6FAB57B8 /* Pods-MZPay */ = {
@@ -158,27 +144,51 @@
 			path = "Target Support Files/Pods-MZPay";
 			sourceTree = "<group>";
 		};
-		9E7DB361D0C4069D7549E46CD56B4F4D /* WechatOpenSDK */ = {
+		8FD49939CC257485141EB396F242998F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9BCCE7A311F85C8977229967B47026AF /* WechatAuthSDK.h */,
-				67425B793420A140F2AC54FBC2F5D23C /* WXApi.h */,
-				439BC51372D263CC9F4FD6B9425107A5 /* WXApiObject.h */,
-				E0952E71F543817B0C2800D7D6FDCB18 /* Frameworks */,
-				C8E3DE8FDD1613BFE45CEE3D7D153815 /* Support Files */,
+				1D48CA5F4A3C278AFDFFD7712DE24C9A /* WechatOpenSDK.framework */,
 			);
-			name = WechatOpenSDK;
-			path = WechatOpenSDK;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C8E3DE8FDD1613BFE45CEE3D7D153815 /* Support Files */ = {
+		9BBF5B3489A396DEBC03DA37155E9368 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				794DD03F9391F7D79E599878A7A75F74 /* WechatOpenSDK.debug.xcconfig */,
-				1E0E58C28B79139D7CB55D2E4D515038 /* WechatOpenSDK.release.xcconfig */,
+				A41ACD62F61D8681F6106636DEE77B29 /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A6197949850F09E618A37B924B10C82F /* WechatOpenSDK-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				8FD49939CC257485141EB396F242998F /* Frameworks */,
+				B5CB61CF52FA9547158E7DF60B5EF8C9 /* Support Files */,
+			);
+			name = "WechatOpenSDK-Swift";
+			path = "WechatOpenSDK-Swift";
+			sourceTree = "<group>";
+		};
+		B5CB61CF52FA9547158E7DF60B5EF8C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8A50A745041D738BF42529F96365480 /* WechatOpenSDK-Swift.debug.xcconfig */,
+				670CBE79EF711F1A7979C090CDC2064A /* WechatOpenSDK-Swift.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/WechatOpenSDK";
+			path = "../Target Support Files/WechatOpenSDK-Swift";
+			sourceTree = "<group>";
+		};
+		C03281E082142D1C7EF9323127DF24FB /* AlipaySDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				872176D418A9C179A25DB16DBA5AD499 /* Frameworks */,
+				9BBF5B3489A396DEBC03DA37155E9368 /* Resources */,
+				22EC7F2F143D3888253529735EF7722F /* Support Files */,
+			);
+			name = "AlipaySDK-iOS";
+			path = "AlipaySDK-iOS";
 			sourceTree = "<group>";
 		};
 		CDD87B406C77432D011010F9B80C8DB6 /* Targets Support Files */ = {
@@ -194,7 +204,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				031585440D19C24408251CCDBD89E8B8 /* Pods */,
+				6571129F9F01F9372D98DDEF934E66DE /* Pods */,
 				48868DCA0ECC7D01DF6C29D4D872C9A2 /* Products */,
 				CDD87B406C77432D011010F9B80C8DB6 /* Targets Support Files */,
 			);
@@ -208,30 +218,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DEB4F4EC4DB72C8F198C9A4D0262E812 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E1D5A9B9413C02EA9F5DCB53A5C13B5B /* AlipaySDK.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		E0952E71F543817B0C2800D7D6FDCB18 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				93DA5E5A191FA6A31403753D6AD6D542 /* libWeChatSDK.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0578A1B84342619FCE83B048459D893B /* Headers */ = {
+		2FD53BEBE78971F6C406FDE336EF7DF1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FF3686F081C0C2F54145542523462F8 /* Pods-MZPay-umbrella.h in Headers */,
+				CAE6D22F64314FF3A5B68D39D5F83275 /* Pods-MZPay-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,18 +234,18 @@
 /* Begin PBXNativeTarget section */
 		354268112E142B1189D9DF019859F41F /* Pods-MZPay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5691772C78C66C1483628BE0BEC9C53 /* Build configuration list for PBXNativeTarget "Pods-MZPay" */;
+			buildConfigurationList = 90DA30D13D697124B2C8878FADBCD5ED /* Build configuration list for PBXNativeTarget "Pods-MZPay" */;
 			buildPhases = (
-				0578A1B84342619FCE83B048459D893B /* Headers */,
-				4132FD1EFCEF83E39F1DCBEA58481342 /* Sources */,
-				A4218E1A07678B0C3C48CB9F5BB947F4 /* Frameworks */,
-				3E69D1714A27160DB823A16556BFEC0E /* Resources */,
+				2FD53BEBE78971F6C406FDE336EF7DF1 /* Headers */,
+				4D68AA481646652B1E9FC1B7E1FDACC2 /* Sources */,
+				D0A3EA04EDC56853976EF1E0780F7A6D /* Frameworks */,
+				8994026445085BC5C29FC4A048874EEF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7E6EA95FAD6A7536567B1F7D053FC68A /* PBXTargetDependency */,
-				A63B8B023A7A1EDC4867C6E3C76BAC38 /* PBXTargetDependency */,
+				5F6E5FFFBAA2C167911B3E6EECF547FD /* PBXTargetDependency */,
+				5956AE4081146877CD0856817206349A /* PBXTargetDependency */,
 			);
 			name = "Pods-MZPay";
 			productName = Pods_MZPay;
@@ -282,13 +276,13 @@
 			targets = (
 				4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */,
 				354268112E142B1189D9DF019859F41F /* Pods-MZPay */,
-				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
+				D738A182B8613254A2692EBEF9DC0188 /* WechatOpenSDK-Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3E69D1714A27160DB823A16556BFEC0E /* Resources */ = {
+		8994026445085BC5C29FC4A048874EEF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -298,35 +292,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4132FD1EFCEF83E39F1DCBEA58481342 /* Sources */ = {
+		4D68AA481646652B1E9FC1B7E1FDACC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98681F4EA6B20C08DE8CF33E693CDF1D /* Pods-MZPay-dummy.m in Sources */,
+				B951CE8595A0DDA042326C84588530B1 /* Pods-MZPay-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7E6EA95FAD6A7536567B1F7D053FC68A /* PBXTargetDependency */ = {
+		5956AE4081146877CD0856817206349A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WechatOpenSDK-Swift";
+			target = D738A182B8613254A2692EBEF9DC0188 /* WechatOpenSDK-Swift */;
+			targetProxy = 1227209187EED4123DE0445A1478ABFD /* PBXContainerItemProxy */;
+		};
+		5F6E5FFFBAA2C167911B3E6EECF547FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "AlipaySDK-iOS";
 			target = 4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */;
-			targetProxy = B5AA9FD60A7F5F0426CD0FE1CCAC5570 /* PBXContainerItemProxy */;
-		};
-		A63B8B023A7A1EDC4867C6E3C76BAC38 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WechatOpenSDK;
-			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
-			targetProxy = 3347B825EC56FB9E4A9D5DF297C5A67C /* PBXContainerItemProxy */;
+			targetProxy = 90C7DECDE320C3838DA29DDD11487EDF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		02D46C947E1FEF1D49D00E00669784E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F10D18B681CAFF8036BC5B0505CD889 /* AlipaySDK-iOS.debug.xcconfig */;
+			baseConfigurationReference = ACA2020068BB333E959DAFC67BC4F200 /* AlipaySDK-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -340,7 +334,7 @@
 			};
 			name = Debug;
 		};
-		0A741B89BDAF2CB99324F5AE4AFB976B /* Debug */ = {
+		0C8A7632412C3B72007CC282BFF992B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4735CE3D394CA60286B3E73543CAC704 /* Pods-MZPay.debug.xcconfig */;
 			buildSettings = {
@@ -376,9 +370,9 @@
 			};
 			name = Debug;
 		};
-		19EB48C8530FBA1DDEA8FFCDD602F307 /* Release */ = {
+		200324164842A0CCCEE11ED44E8B1DEC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E0E58C28B79139D7CB55D2E4D515038 /* WechatOpenSDK.release.xcconfig */;
+			baseConfigurationReference = 670CBE79EF711F1A7979C090CDC2064A /* WechatOpenSDK-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,7 +453,23 @@
 			};
 			name = Debug;
 		};
-		72EB6DFA7D63D42C4C2E590E37A71D55 /* Release */ = {
+		72170F48851FF335AB782004FB9A2B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A50A745041D738BF42529F96365480 /* WechatOpenSDK-Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F1ADBF07988AB5B9DA1F3E95783069C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ED02BAB0EC0BB9D07D7D1B53138DCCC3 /* Pods-MZPay.release.xcconfig */;
 			buildSettings = {
@@ -560,7 +570,7 @@
 		};
 		D3C6594EAE79D3F1DF68DB19E0F4A9B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6BABDA408D8176CC1A46B5408989D66 /* AlipaySDK-iOS.release.xcconfig */;
+			baseConfigurationReference = B5F47D0B5B62FC005C697029B5BB008A /* AlipaySDK-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -575,25 +585,18 @@
 			};
 			name = Release;
 		};
-		E9034C3C8B274D7A7C62065B44D4B763 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 794DD03F9391F7D79E599878A7A75F74 /* WechatOpenSDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		17729407FAA44844C8BE15DA7DDFE146 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72170F48851FF335AB782004FB9A2B9A /* Debug */,
+				200324164842A0CCCEE11ED44E8B1DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -612,20 +615,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+		90DA30D13D697124B2C8878FADBCD5ED /* Build configuration list for PBXNativeTarget "Pods-MZPay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9034C3C8B274D7A7C62065B44D4B763 /* Debug */,
-				19EB48C8530FBA1DDEA8FFCDD602F307 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E5691772C78C66C1483628BE0BEC9C53 /* Build configuration list for PBXNativeTarget "Pods-MZPay" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0A741B89BDAF2CB99324F5AE4AFB976B /* Debug */,
-				72EB6DFA7D63D42C4C2E590E37A71D55 /* Release */,
+				0C8A7632412C3B72007CC282BFF992B8 /* Debug */,
+				7F1ADBF07988AB5B9DA1F3E95783069C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
