@@ -7,7 +7,8 @@ pod 'MZPay', '~> 0.0.1'
 ```
 
 #### 使用前提
-- 前往微信开放平台和支付宝开放平台申请支付权限
+前往微信开放平台和支付宝开放平台申请支付权限
+
 [微信开放平台](https://open.weixin.qq.com/cgi-bin/frame?t=home/app_tmpl&lang=zh_CN)
 [支付宝开放平台](https://opendocs.alipay.com/open/03k9zr)
 
@@ -19,12 +20,12 @@ LSApplicationQueriesSchemes
 	weixinULAPI
 ```
 <div align=center>
-<img src="1.jpg" width="300px" />
+<img src="1.jpg" />
 </div>
 
 - 添加URL Schemes
 <div align=center>
-<img src="2.jpg" width="300px" />
+<img src="2.jpg" />
 </div>
 
 
