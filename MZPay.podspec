@@ -11,4 +11,5 @@ Pod::Spec.new do |spec|
   spec.source_files  = "MZPay/MZPay/*"
   spec.dependency 'WechatOpenSDK', '~> 1.8.7.1'
   spec.dependency 'AlipaySDK-iOS', '~> 15.8.10'
+  spec.static_framework = true
 end
