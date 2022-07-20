@@ -12,5 +12,5 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.0'
   spec.dependency 'WechatOpenSDK', '~> 1.8.7.1'
   spec.dependency 'AlipaySDK-iOS', '~> 15.8.10'
-  spec.vendored_frameworks = "TDPay.framework"
+  spec.vendored_frameworks = "MZPay.framework"
 end
