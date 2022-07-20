@@ -1,0 +1,11 @@
+framework module MZPay {
+  umbrella header "MZPay.h"
+
+  export *
+  module * { export * }
+}
+
+module MZPay.Swift {
+    header "MZPay-Swift.h"
+    requires objc
+}
