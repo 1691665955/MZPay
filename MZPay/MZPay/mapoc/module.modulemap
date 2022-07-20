@@ -1,0 +1,4 @@
+module mapoc {
+    header "myheader.h"
+    export *
+}
