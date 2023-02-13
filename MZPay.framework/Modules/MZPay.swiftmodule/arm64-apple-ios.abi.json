@@ -1,0 +1,647 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MZPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "MZPay"
+      },
+      {
+        "kind": "Import",
+        "name": "mapoc",
+        "printedName": "mapoc",
+        "declKind": "Import",
+        "moduleName": "MZPay"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MZPayFailureReason",
+        "printedName": "MZPayFailureReason",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Wechat_Uninstalled",
+            "printedName": "Wechat_Uninstalled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MZPay.MZPayFailureReason.Type) -> MZPay.MZPayFailureReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MZPayFailureReason",
+                    "printedName": "MZPay.MZPayFailureReason",
+                    "usr": "s:5MZPay0A13FailureReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MZPay.MZPayFailureReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MZPayFailureReason",
+                        "printedName": "MZPay.MZPayFailureReason",
+                        "usr": "s:5MZPay0A13FailureReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5MZPay0A13FailureReasonO18Wechat_UninstalledyA2CmF",
+            "mangledName": "$s5MZPay0A13FailureReasonO18Wechat_UninstalledyA2CmF",
+            "moduleName": "MZPay"
+          },
+          {
+            "kind": "Var",
+            "name": "Wechat_Unsupport",
+            "printedName": "Wechat_Unsupport",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MZPay.MZPayFailureReason.Type) -> MZPay.MZPayFailureReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MZPayFailureReason",
+                    "printedName": "MZPay.MZPayFailureReason",
+                    "usr": "s:5MZPay0A13FailureReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MZPay.MZPayFailureReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MZPayFailureReason",
+                        "printedName": "MZPay.MZPayFailureReason",
+                        "usr": "s:5MZPay0A13FailureReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5MZPay0A13FailureReasonO16Wechat_UnsupportyA2CmF",
+            "mangledName": "$s5MZPay0A13FailureReasonO16Wechat_UnsupportyA2CmF",
+            "moduleName": "MZPay"
+          },
+          {
+            "kind": "Var",
+            "name": "Ohter",
+            "printedName": "Ohter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MZPay.MZPayFailureReason.Type) -> MZPay.MZPayFailureReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MZPayFailureReason",
+                    "printedName": "MZPay.MZPayFailureReason",
+                    "usr": "s:5MZPay0A13FailureReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MZPay.MZPayFailureReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MZPayFailureReason",
+                        "printedName": "MZPay.MZPayFailureReason",
+                        "usr": "s:5MZPay0A13FailureReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5MZPay0A13FailureReasonO5OhteryA2CmF",
+            "mangledName": "$s5MZPay0A13FailureReasonO5OhteryA2CmF",
+            "moduleName": "MZPay"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MZPayFailureReason",
+                "printedName": "MZPay.MZPayFailureReason",
+                "usr": "s:5MZPay0A13FailureReasonO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MZPayFailureReason",
+                "printedName": "MZPay.MZPayFailureReason",
+                "usr": "s:5MZPay0A13FailureReasonO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5MZPay0A13FailureReasonO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s5MZPay0A13FailureReasonO2eeoiySbAC_ACtFZ",
+            "moduleName": "MZPay",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5MZPay0A13FailureReasonO9hashValueSivp",
+            "mangledName": "$s5MZPay0A13FailureReasonO9hashValueSivp",
+            "moduleName": "MZPay",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5MZPay0A13FailureReasonO9hashValueSivg",
+                "mangledName": "$s5MZPay0A13FailureReasonO9hashValueSivg",
+                "moduleName": "MZPay",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5MZPay0A13FailureReasonO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s5MZPay0A13FailureReasonO4hash4intoys6HasherVz_tF",
+            "moduleName": "MZPay",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5MZPay0A13FailureReasonO",
+        "mangledName": "$s5MZPay0A13FailureReasonO",
+        "moduleName": "MZPay",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MZPay",
+        "printedName": "MZPay",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "payWechat",
+            "printedName": "payWechat(mchid:prepayId:appid:appKey:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MZPay.MZPayFailureReason) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MZPayFailureReason",
+                    "printedName": "MZPay.MZPayFailureReason",
+                    "usr": "s:5MZPay0A13FailureReasonO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5MZPayAAC9payWechat5mchid8prepayId5appid6appKey7success7failureySS_S3SyycyAA0A13FailureReasonOctFZ",
+            "mangledName": "$s5MZPayAAC9payWechat5mchid8prepayId5appid6appKey7success7failureySS_S3SyycyAA0A13FailureReasonOctFZ",
+            "moduleName": "MZPay",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerWechat",
+            "printedName": "registerWechat(appid:universalLink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5MZPayAAC14registerWechat5appid13universalLinkySS_SStFZ",
+            "mangledName": "$s5MZPayAAC14registerWechat5appid13universalLinkySS_SStFZ",
+            "moduleName": "MZPay",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleOpenURL",
+            "printedName": "handleOpenURL(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5MZPayAAC13handleOpenURLySb10Foundation0D0VFZ",
+            "mangledName": "$s5MZPayAAC13handleOpenURLySb10Foundation0D0VFZ",
+            "moduleName": "MZPay",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleOpenUniversalLink",
+            "printedName": "handleOpenUniversalLink(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSUserActivity",
+                "printedName": "Foundation.NSUserActivity",
+                "usr": "c:objc(cs)NSUserActivity"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5MZPayAAC23handleOpenUniversalLinkySbSo14NSUserActivityCFZ",
+            "mangledName": "$s5MZPayAAC23handleOpenUniversalLinkySbSo14NSUserActivityCFZ",
+            "moduleName": "MZPay",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "payAli",
+            "printedName": "payAli(payURL:appScheme:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MZPay.MZPayFailureReason) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MZPayFailureReason",
+                    "printedName": "MZPay.MZPayFailureReason",
+                    "usr": "s:5MZPay0A13FailureReasonO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5MZPayAAC6payAli0B3URL9appScheme7success7failureySS_SSyycyAA0A13FailureReasonOctFZ",
+            "mangledName": "$s5MZPayAAC6payAli0B3URL9appScheme7success7failureySS_SSyycyAA0A13FailureReasonOctFZ",
+            "moduleName": "MZPay",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onResp",
+            "printedName": "onResp(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BaseResp",
+                "printedName": "mapoc.BaseResp",
+                "usr": "c:objc(cs)BaseResp"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MZPay@objc(cs)MZPay(im)onResp:",
+            "mangledName": "$s5MZPayAAC6onRespyySo04BaseC0CF",
+            "moduleName": "MZPay",
+            "isOpen": true,
+            "objc_name": "onResp:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MZPay",
+                "printedName": "MZPay.MZPay",
+                "usr": "c:@M@MZPay@objc(cs)MZPay"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MZPay@objc(cs)MZPay(im)init",
+            "mangledName": "$s5MZPayAACABycfc",
+            "moduleName": "MZPay",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MZPay@objc(cs)MZPay",
+        "mangledName": "$s5MZPayAAC",
+        "moduleName": "MZPay",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
