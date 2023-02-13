@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "MZPay"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Swift微信支付和支付宝支付"
   spec.homepage     = "https://github.com/1691665955/MZPay"
   spec.authors         = { 'MZ' => '1691665955@qq.com' }

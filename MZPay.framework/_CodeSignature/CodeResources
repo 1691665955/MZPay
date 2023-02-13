@@ -56,9 +56,13 @@
 		<data>
 		aBAso0nz1JKeoWcPgXCGYpQwoxE=
 		</data>
+		<key>Modules/MZPay.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		wDLYBd4dxuj7Ppf9i3YFUS8XyIw=
+		</data>
 		<key>Modules/MZPay.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		jNa/Nz2kmr662HiklyVQ1maFM88=
+		mEv6XMg/dIPWV9WcMsIMpcDOkSA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -199,15 +203,26 @@
 			RlBL/Uc0pnmRuHOjxR5ywvMulGxDVMnmgbKyjoss+0E=
 			</data>
 		</dict>
+		<key>Modules/MZPay.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wDLYBd4dxuj7Ppf9i3YFUS8XyIw=
+			</data>
+			<key>hash2</key>
+			<data>
+			OSjR0fCJEyU1JqvosCcgkP1xC3Ikx+xmvBlNyto/mGg=
+			</data>
+		</dict>
 		<key>Modules/MZPay.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jNa/Nz2kmr662HiklyVQ1maFM88=
+			mEv6XMg/dIPWV9WcMsIMpcDOkSA=
 			</data>
 			<key>hash2</key>
 			<data>
-			b1aXpFhIiyQiV10mOJlHDR1J8tza5FaaQf5Yj0rRyCg=
+			MALUsn2DRWebY/yM6KMPhRBEZ8Gkc5BQa79OB552MiY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1,0 +1,31 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target i386-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name MZPay
+import CommonCrypto
+@_exported import MZPay
+import Swift
+import UIKit
+import _Concurrency
+import mapoc
+public enum MZPayFailureReason {
+  case Wechat_Uninstalled
+  case Wechat_Unsupport
+  case Ohter
+  public static func == (a: MZPay.MZPayFailureReason, b: MZPay.MZPayFailureReason) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class MZPay : ObjectiveC.NSObject, mapoc.WXApiDelegate {
+  public static func payWechat(mchid: Swift.String, prepayId: Swift.String, appid: Swift.String, appKey: Swift.String, success: @escaping () -> Swift.Void, failure: @escaping (MZPay.MZPayFailureReason) -> Swift.Void)
+  public static func registerWechat(appid: Swift.String, universalLink: Swift.String)
+  public static func handleOpenURL(_ url: Foundation.URL) -> Swift.Bool
+  public static func handleOpenUniversalLink(_ userActivity: Foundation.NSUserActivity) -> Swift.Bool
+  public static func payAli(payURL: Swift.String, appScheme: Swift.String, success: @escaping () -> Swift.Void, failure: @escaping (MZPay.MZPayFailureReason) -> Swift.Void)
+  @objc public func onResp(_ resp: mapoc.BaseResp)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension MZPay.MZPayFailureReason : Swift.Equatable {}
+extension MZPay.MZPayFailureReason : Swift.Hashable {}
